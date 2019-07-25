@@ -42,6 +42,5 @@ class App < Sinatra::Base
       else "divide"
       "#{@number1 / @number2}"
     end
-    erb :operation
   end
 end
