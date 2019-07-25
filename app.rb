@@ -32,7 +32,6 @@ class App < Sinatra::Base
     @operation = params[:operation]
     @number1 = params[:number1].to_i
     @number2 = params[:number2].to_i
-<<<<<<< HEAD
     case @operation 
       when "add"
       "#{@number1 + @number2}"
@@ -45,10 +44,8 @@ class App < Sinatra::Base
     end
   end
 
-=======
     erb :operation
   end
 
 
->>>>>>> e175be60b6affa51d265fe0dfebea60e5ac2138b
 end
